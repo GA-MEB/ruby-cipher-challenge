@@ -28,6 +28,12 @@ cloning](https://github.com/ga-wdi-boston/meta/wiki/ForkAndClone).
 
 Instructions here.
 
+You should be running `rubocop` before diagnosing any bugs, since it finds
+ some of the most common sources of errors.
+After `rubocop` passes _your_ code (ignore any warnings about `spec_helper`),
+ you should run `rspec` to run the included tests, which will tell you
+ whether or not you've met requirements.
+
 ## Bonus
 
 Bonus challenge for those who finish early.
