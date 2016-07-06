@@ -70,11 +70,14 @@ Please make a commit after completing each of the following steps.
   decode('jbeyq') # => 'world'
   ```
 
-> Hint: You might want to take a look at this documentation.
+> Hint: Take a look at this documentation -- there are
+> a couple of predefined methods in each class/module
+> that make this problem much simpler.
 >
 > -   [Class: String](http://ruby-doc.org/core-2.3.0/String.html)
 > -   [Class: Array](http://ruby-doc.org/core-2.3.0/Array.html)
 > -   [Module: Enumerable](http://ruby-doc.org/core-2.3.0/Enumerable.html)
+> -   [Class: Hash](http://ruby-doc.org/core-2.3.0/Hash.html)
 
 Please run the Rubocop linter (`rubocop lib`) before debugging your code,
  since the linter will make it easy to spot many common sources of errors.
